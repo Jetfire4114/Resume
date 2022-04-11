@@ -30,3 +30,55 @@ body {
   small {
   color: #999;
   }
+  img {
+  	max-width: 25%;
+  }
+  h2 + p {
+    text-align: center;
+    font-style: italic;
+  }
+  dt {
+    font-weight: bold;
+    color: sienna;
+  }
+  strong {
+    font-style: italic;
+  }
+dt strong {
+  color: tomato;
+  }
+#infor p {
+  font-style: italic;
+  color: gray;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+  color: gray;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+p.warning, sup {
+  font-size: small;
+  color: red;
+}
+h1, h2, #info {
+  text-align: center;
+}
+  nav {
+    text-align: left;
+  }
+a:hover {
+  color: orange;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+a:active {
+  color: red;
+  background-color: rgba(255, 255, 255, 0.75);
+}
+a:visited {
+  color: grey;
+}

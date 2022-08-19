@@ -1,0 +1,76 @@
+/*Main Page*/
+  body {
+Background-color: #151515;
+margin: 0 10%;
+font-family: sans-serif;
+color: #ffffff;
+}
+/* Thick red border */
+hr.new1 {
+  border: 1px solid #39FF14;
+}
+  h1 {
+    color: #fffafa;
+    font: bold 2em "Marko One";
+  }
+  h2 {
+text-align: left;
+font-family: serif;
+font-weight: normal;
+text-transform: uppercase;
+margin-top: 25px;
+color: #bc13fe;
+}
+  h4 {
+    text-align: left;
+    font-family: serif;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin-top: 15px;
+    margin-left: 85px;
+    color: #39FF14;
+  }
+  footer {
+    color: #acacac;
+  }
+/* unvisited link */
+a:link {
+  color: #1E90FF;
+}
+
+/* visited link */
+a:visited {
+  color: green;
+}
+
+/* mouse over link */
+a:hover {
+  color: #bc13fe;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+}
+.fit-picture {
+    width: 250px;
+}
+.fit-picture2 {
+    width: 500px;
+}
+
+/*Separet Images*/
+.fit-picture3 {
+    width: 800px;
+    }
+  h1.dev {color: white;
+        border-bottom: 2px solid #bc13fe; /* purple color */
+        text-align: center;
+    }
+  body.dev {
+   text-align: center;
+   Background-color: #151515;
+   margin: 0 10%;
+   font-family: sans-serif;
+   color: #ffffff;
+  }
